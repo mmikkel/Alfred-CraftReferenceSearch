@@ -7,7 +7,7 @@
  * @package     Craft CMS Reference Search
  * @copyright   Copyright (c) 2015, Mats Mikkel Rummelhoff
  * @license     http://opensource.org/licenses/mit-license.php MIT License
- * @link        https://github.com/mmikkel/CraftReference-Alfred
+ * @link        https://github.com/mmikkel/Alfred-CraftReferenceSearch
  */
 
 error_reporting(0);
