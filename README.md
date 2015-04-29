@@ -1,4 +1,4 @@
-# Craft CMS Reference Search for Alfred
+# Craft CMS Reference Search
 
 ## Alfred 2 workflow
 
