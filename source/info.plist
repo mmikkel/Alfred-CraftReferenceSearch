@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>no.mmikkel.craftreferencesearch.alfredworkflow</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>301619E5-54AF-4C4C-B344-2E7C086C272F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>74157FF6-C4FA-487C-8CAD-E93EB4FE2F66</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Mats Mikkel Rummelhoff</string>
+	<key>description</key>
+	<string>Search the Craft CMS Class Reference (and other resources)</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Craft CMS Reference Search</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>craft</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Looking...</string>
+				<key>script</key>
+				<string>$query = "{query}";
+require_once('craftreferencesearch.php');</string>
+				<key>subtext</key>
+				<string>Type something</string>
+				<key>title</key>
+				<string>Search the Craft CMS reference</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>301619E5-54AF-4C4C-B344-2E7C086C272F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>74157FF6-C4FA-487C-8CAD-E93EB4FE2F66</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Search the Craft CMS Class Reference</string>
+	<key>uidata</key>
+	<dict>
+		<key>301619E5-54AF-4C4C-B344-2E7C086C272F</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>74157FF6-C4FA-487C-8CAD-E93EB4FE2F66</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/mmikkel/CraftReference-Alfred</string>
+</dict>
+</plist>
