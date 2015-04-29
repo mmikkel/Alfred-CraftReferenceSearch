@@ -4,6 +4,6 @@
 
 Search the Class Reference at http://buildwithcraft.com/reference using Alfred.
 
-![Workflow screenshot](/screenshot.jpg?raw=true)
+![Workflow screenshot](/screenshot.png?raw=true)
 
 _Pull requests are welcome._
